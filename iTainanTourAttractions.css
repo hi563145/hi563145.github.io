@@ -1,0 +1,124 @@
+Font.iTainantour{
+	font-size:100px;
+	font-family:Cracked;
+	color: #61210B;
+}
+A.iTainantourlink{
+	text-decoration: none;
+}
+IMG.logo1{
+	position: relative;
+	right: 50px;
+}
+IMG.logo2{
+	position: relative;
+	left: 50px;
+}
+A.Food2{
+	font-size: 30px;
+	color: #013ADF;
+	position: relative;
+	background: black;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Food1{
+	width: 330px;
+}
+TD.Food1:hover{
+	background: #64FAB9;
+}
+A.Attractions2{
+	font-size: 30px;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Attractions1{
+	width: 330px;
+}
+TD.Attractions1:hover{
+	background: #64FAB9;
+}
+A.Transportation2{
+	font-size: 30px;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Transportation1{
+	width: 330px;
+}
+TD.Transportation1:hover{
+	background: #64FAB9;
+}
+A.Accomodation2{
+	font-size: 30px;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Accomodation1{
+	width: 330px;
+}
+TD.Accomodation1:hover{
+	background: #64FAB9;
+}
+FONT.a1{
+	font-size: 30px;
+	font-family: Bell MT;
+}
+P.a2{
+	font-size: 20px;
+}
+FONT.a3{
+	font-size: 18px;
+	font-family: Avenir Next;
+}
+FONT.b1{
+	font-size: 30px;
+	font-family: Bell MT;
+}
+P.b2{
+	font-size: 20px;
+}
+FONT.b3{
+	font-size: 18px;
+	font-family: Avenir Next;
+}
+FONT.c1{
+	font-size: 30px;
+	font-family: Bell MT;
+}
+P.c2{
+	font-size: 20px;
+}
+FONT.c3{
+	font-size: 18px;
+	font-family: Avenir Next;
+}
+FONT.d1{
+	font-size: 30px;
+	font-family: Bell MT;
+}
+P.d2{
+	font-size: 20px;
+}
+FONT.d3{
+	font-size: 18px;
+	font-family: Avenir Next;
+}
+FONT.e1{
+	font-size: 30px;
+	font-family: Bell MT;
+}
+P.e2{
+	font-size: 20px;
+}
+FONT.e3{
+	font-size: 18px;
+	font-family: Avenir Next;
+}

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>iTainanTour</title>
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+<meta charset="utf-8"> 
+<!-- CSS styles for standard search box -->
+<style type="text/css">
+/* Logo */
+A.iTainanTourlink{
+	text-decoration: none;
+}
+Font.iTainantour{
+	font-size:500%;
+	font-family:Comic Sans MS;
+	color: #61210B;
+}
+IMG.logo1{
+	position: relative;
+	right: 50px;
+}
+IMG.logo2{
+	position: relative;
+	left: 50px;
+}
+/* Links */
+table.table{
+	width: 100%;
+}
+A.Food2{
+	font-size: 200%;
+	color: #013ADF;
+	position: relative;
+	background: black;
+	font-family: Avenir;
+}
+TD.Food1{
+	width: 25%;
+}
+TD.Food1:hover{
+	background: #DA81F5;
+}
+A.Attractions2{
+	font-size: 200%;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+}
+TD.Attractions1{
+	width: 25%;
+}
+TD.Attractions1:hover{
+	background: #DA81F5;
+}
+A.Transportation2{
+	font-size: 200%;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+}
+TD.Transportation1{
+	width: 25%;
+}
+TD.Transportation1:hover{
+	background: #DA81F5;
+}
+A.Accomodation2{
+	font-size: 200%;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+}
+TD.Accomodation1{
+	width: 25%;
+}
+TD.Accomodation1:hover{
+	background: #DA81F5;
+}
+/* Welcome */
+.Welcome{
+	font-size: 2em;
+	font-family: cursive;
+}
+/* Information */
+P.Info{
+	font-family: cursive;
+}
+Font.Headings{
+	font-family: arial;
+	font-size: 24px;
+	position: relative;
+	top: 10px;
+}
+Font.Headings1{
+	font-family: arail;
+	font-size: 22px;
+}
+/* History */
+#tainanhistory1{
+	position: relative;
+	opacity: 1;
+	transition: 2s;
+}
+#tainanhistory2{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	top: 68.4em;
+	left: 19.5em;
+}
+#tainanhistory3{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	top: 68.4em;
+	left: 19.5em;
+}
+#tainanhistory4{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	top: 68.4em;
+	left: 19.5em;
+}
+/* Characteristic */
+#image1{
+	position: relative;
+	opacity: 1;
+	transition: 2s;
+	border-style: solid;
+}
+#image2{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	left: 17em;
+	top: 108.55em;
+	border-style: solid;
+}
+#image3{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	left: 31em;
+	top: 108.55em;
+	border-style: solid;
+}
+#image4{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	left: 30em;
+	top: 108.55em;
+	border-style: solid;
+}
+.Character1{
+	position: relative;
+}
+.Character2{
+	position: relative;
+}
+.Character3{
+	position: relative;
+}
+.Character4{
+	position: relative;
+}
+/* Search Bar */
+.searchbar{
+	width: 17%;
+	position: absolute;
+	left: 83%;
+}
+/* Clock */
+#datebox{
+	font-size: 2em;
+	position: absolute;
+	left: 20px;
+	width: 5.5em;
+	text-align: center;
+	top: 3%;
+}
+</style>
+</head>
+<body background="wbc.gif">
+		<div id="datebox">
+			<font>Taiwan Current Time</font>
+			<br>
+			<span id="dateH"></span>:<span id="dateM"></span>:<span id="dateS"></span>
+		</div>
+		<script type="text/javascript">
+		function TWdate() {
+			var date = new Date();
+			var UTCH = date.getUTCHours();
+			var TimeH = UTCH + 8;
+			var TimeM = date.getUTCMinutes();
+			var TimeS = date.getUTCSeconds();
+			document.getElementById("dateH").innerHTML = TimeH;
+			document.getElementById("dateM").innerHTML = TimeM;
+			document.getElementById("dateS").innerHTML = TimeS;
+		}
+		var myVar = setInterval(TWdate, 500);
+		</script>
+	<div class="searchbar">
+		<script>
+ 			(function() {
+    		var cx = '012516211717909653604:o7_o50djxhm';
+    		var gcse = document.createElement('script');
+    		gcse.type = 'text/javascript';
+    		gcse.async = true;
+    		gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    		var s = document.getElementsByTagName('script')[0];
+    		s.parentNode.insertBefore(gcse, s);
+  			})();
+		</script>
+		<gcse:search></gcse:search>
+	</div>
+			<CENTER>
+		<TABLE class='logo'>
+			<TR>
+				<TD>
+					<IMG SRC="FullSizeRender.jpg" height='10%' class='logo1'>
+				</TD>
+				<TD>
+					<A HREF="iTainantour.html" class='iTainanTourlink'>
+						<FONT class='iTainantour'>iTainanTour</FONT>
+					</A>
+				</TD>
+				<TD>
+					<IMG SRC="FullSizeRender.jpg" height='10%' class='logo2'>
+				</TD>
+			</TR>
+		</TABLE>
+		</CENTER>
+		<TABLE border='1' class="table">
+			<TR>
+				<TD class='Food1'>
+					<A href="Food.html" class='Food2'>
+						<CENTER>
+							<FONT class='Food'>Food</FONT>
+						</CENTER>
+					</A>
+				</TD>
+				<TD class='Attractions1'>
+					<a href="Attractions.htm" class='Attractions2'>
+						<CENTER>
+							<FONT class='Attractions'>Attractions</FONT>
+						</CENTER>
+					</a>
+				</TD>
+				<TD class='Transportation1'>
+					<A HREF="" class='Transportation2'>
+						<CENTER>
+							<FONT class='Transportaion'>Transportaion</FONT>
+						</CENTER>
+					</A>
+				</TD>
+				<TD class='Accomodation1'>
+					<A HREF="Summary.html" class='Accomodation2'>
+						<CENTER>
+							<FONT class='Accomodation'>Summary</FONT>
+						</CENTER>
+					</A>
+				</TD>
+			</TR>
+		</TABLE>
+		<br>
+		<span lang="zh-Hans" class="Welcome">Welcome <span id="name"></span> 歡迎 <span id="hi"></span>
+		</span>
+		<br>
+		<font class='Headings'>
+			About Tainan:
+		</font>
+		<UL>
+			<LI>
+				<font class='Headings1'>Location:</font>
+				<P class='Info'>
+					Tainan is a city located in southern Taiwan. It is facing Taiwan Strait in the east and south. Tainan is at 23 degrees North and 120 degrees east. The area is 175.6 square km. The annual average temperature in Tainan is 24 degrees. It is cold from January to March. It is hot from June to August. For most part of the year, it is hot and humid. The Tropic of Cancer runs through the middle Taiwan. It makes Tainan tropical and subtropical weather.
+				</P>
+				<CENTER><iframe src="https://www.google.com/maps/d/embed?mid=zGp3DNmKsA9g.kdthq-O8qjxA&hl=en_US" width="640" height="480"></iframe></CENTER>
+			</LI>
+			<LI>
+				<font class='Headings1'>History:</font>
+					<P class='Info'>
+						Dutch people established Dutch East India Company called Fort Zeelandia. It was a rule and a trading base for dutch people. In 1611, Koxinga, in Ming Dynasty, took over the city from Dutch and named it Tungning Kingdom. It was under Koxinga&#39;s rule till 1683. Then in Qin Dynasty, it was named Taiwan Prefecture until 1887. Later, the capital of Taiwan moved to Taipei. Tainan remained one of the cultural capitals in Taiwan. Now, it is still a city full of history and cultural. It is famous for its local snack food. It also houses the first Confucian school temple, which was built in 1665.
+					</P>
+					<CENTER>
+						<IMG SRC="tainan history 1.jpg" height='450' id='tainanhistory1'>
+						<IMG SRC="tainan history 2.jpg" height='450' id='tainanhistory2'>
+						<IMG SRC="tainan history 3.jpg" height='450' id='tainanhistory3'>
+						<IMG SRC="tainan history 4.jpg" height='450' id='tainanhistory4'>
+					</CENTER>
+					<CENTER>
+						<IMG SRC="Button2.gif" height='25' name='History1' class='History1'
+							onclick="src='Button2.gif'
+										History1.src='Button2.gif'
+										History2.src='Button1.gif'
+										History3.src='Button1.gif'
+										History4.src='Button1.gif'
+										document.getElementById('tainanhistory1').style.opacity='1';
+										document.getElementById('tainanhistory2').style.opacity='0';
+										document.getElementById('tainanhistory3').style.opacity='0';
+										document.getElementById('tainanhistory4').style.opacity='0';">
+						<IMG SRC="Button1.gif" height='25' name='History2' class='History2'
+							onclick="src='Button2.gif'
+										History1.src='Button1.gif'
+										History2.src='Button2.gif'
+										History3.src='Button1.gif'
+										History4.src='Button1.gif'
+										document.getElementById('tainanhistory1').style.opacity='0';
+										document.getElementById('tainanhistory2').style.opacity='1';
+										document.getElementById('tainanhistory3').style.opacity='0';
+										document.getElementById('tainanhistory4').style.opacity='0';">
+						<IMG SRC="Button1.gif" height='25' name='History3' class='History3'
+							onclick="src='Button2.gif'
+										History1.src='Button1.gif'
+										History2.src='Button1.gif'
+										History3.src='Button2.gif'
+										History4.src='Button1.gif'
+										document.getElementById('tainanhistory1').style.opacity='0';
+										document.getElementById('tainanhistory2').style.opacity='0';
+										document.getElementById('tainanhistory3').style.opacity='1';
+										document.getElementById('tainanhistory4').style.opacity='0';">
+						<IMG SRC="Button1.gif" height='25' name='History4' class='History4'
+							onclick="src='Button2.gif'
+										History1.src='Button1.gif'
+										History2.src='Button1.gif'
+										History3.src='Button1.gif'
+										History4.src='Button2.gif'
+										document.getElementById('tainanhistory1').style.opacity='0';
+										document.getElementById('tainanhistory2').style.opacity='0';
+										document.getElementById('tainanhistory3').style.opacity='0';
+										document.getElementById('tainanhistory4').style.opacity='1';">
+					</CENTER>
+				</LI>
+			<LI>
+				<font class='Headings1'>Characteristics:</font>
+					<P class='Info'>
+						Transportation in Tainan is very convenient. People can get to Tainan by land, sea, and air. Among them, there are freeways, trains, buses, and high-speed rails to get to other cities from Tainan. There will also be MRT in Tainan in the future to get to Kaohsiung. The living pace in Tainan is relaxing. Life in Tainan is not so stressful as life in Taipei. People are very sincere. It combines the convenience of a city and friendliness of a country. Tainan is a city full of culture and history. There are many historic sites for tourists to visit and local delicious snack foods for visitors to taste. It is a great choice for sightseeing. Follow us to this amazing city!
+					</P>
+					<CENTER>
+						<IMG SRC="characteristic tainan 1.jpg" height='450' name='tainancharacteristic' id="image1">
+						<IMG SRC="characteristic tainan 2.jpg" height="450" id="image2">
+						<IMG SRC="characteristic tainan 3.jpg" height="450" id="image3">
+						<IMG SRC="characteristic tainan 4.jpg" height="450" id="image4">
+					</CENTER>
+					<CENTER>
+						<IMG SRC="Button2.gif" height='25' name='Characteristic1' class='Character1'
+							onclick="src='Button2.gif'
+										Characteristic1.src='Button2.gif'
+										Characteristic2.src='Button1.gif'
+										Characteristic3.src='Button1.gif'
+										Characteristic4.src='Button1.gif'
+										document.getElementById('image1').style.opacity='1';
+										document.getElementById('image2').style.opacity='0';
+										document.getElementById('image3').style.opacity='0';
+										document.getElementById('image4').style.opacity='0';">
+						<IMG SRC="Button1.gif" height='25' name='Characteristic2' class='Character2'
+							onclick="src='Button2.gif'
+										Characteristic1.src='Button1.gif'
+										Characteristic2.src='Button2.gif'
+										Characteristic3.src='Button1.gif'
+										Characteristic4.src='Button1.gif'
+										document.getElementById('image2').style.opacity='1';
+										document.getElementById('image1').style.opacity='0';
+										document.getElementById('image3').style.opacity='0';
+										document.getElementById('image4').style.opacity='0';">
+						<IMG SRC="Button1.gif" height='25' name='Characteristic3' class='Character3'
+							onclick="src='Button2.gif'
+										Characteristic1.src='Button1.gif'
+										Characteristic2.src='Button1.gif'
+										Characteristic3.src='Button2.gif'
+										Characteristic4.src='Button1.gif'
+										document.getElementById('image3').style.opacity='1';
+										document.getElementById('image2').style.opacity='0';
+										document.getElementById('image1').style.opacity='0';
+										document.getElementById('image4').style.opacity='0';">
+						<IMG SRC="Button1.gif" height='25' name='Characteristic4' class='Character4'
+							onclick="src='Button2.gif'
+										Characteristic1.src='Button1.gif'
+										Characteristic2.src='Button1.gif'
+										Characteristic3.src='Button1.gif'
+										Characteristic4.src='Button2.gif'
+										document.getElementById('image4').style.opacity='1';
+										document.getElementById('image2').style.opacity='0';
+										document.getElementById('image3').style.opacity='0';
+										document.getElementById('image1').style.opacity='0';">
+					</CENTER>
+		</UL>
+		<script>
+			var namevar = window.prompt("What is your name?");
+			document.getElementById("name").innerHTML = namevar;
+			document.getElementById("hi").innerHTML = namevar;
+		</script>
+</body>
+</html>

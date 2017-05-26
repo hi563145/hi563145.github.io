@@ -1,0 +1,224 @@
+/* Logo */
+A.iTainantourlink{
+	text-decoration: none;
+}
+Font.iTainantour{
+	font-size:100px;
+	font-family:Cracked;
+	color: #61210B;
+}
+IMG.logo1{
+	position: relative;
+	right: 50px;
+}
+IMG.logo2{
+	position: relative;
+	left: 50px;
+}
+/* links */
+A.Food2{
+	font-size: 30px;
+	color: #013ADF;
+	position: relative;
+	background: black;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Food1{
+	width: 330px;
+}
+TD.Food1:hover{
+	background: #64FAB9;
+}
+A.Attractions2{
+	font-size: 30px;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Attractions1{
+	width: 330px;
+}
+TD.Attractions1:hover{
+	background: #64FAB9;
+}
+A.Transportation2{
+	font-size: 30px;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Transportation1{
+
+	width: 330px;
+}
+TD.Transportation1:hover{
+	background: #64FAB9;
+}
+A.Accomodation2{
+	font-size: 30px;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Accomodation1{
+	width: 330px;
+}
+TD.Accomodation1:hover{
+	background: #64FAB9;
+}
+/* Anping Bean-Curd */
+P.Anping{
+	font-size: 20px;
+}
+FONT.AnpingBeanCurd{
+	font-size: 30px; 
+	font-family: Bell MT;
+}
+FONT.ACAD{
+	font-size: 18px;
+	font-family: Avenir Next;
+}
+IMG.Anping2{
+	position: relative;
+	top: 15px;
+}
+IMG.Bean1{
+	position: relative;
+	top: 20px;
+}
+IMG.Bean2{
+	position: relative;
+	top: 20px;
+}
+IMG.Bean3{
+	position: relative;
+	top: 20px;
+}
+IMG.Bean4{
+	position: relative;
+	top: 20px;
+}
+IMG.Bean5{
+	position: relative;
+	top: 20px;
+}
+/* Oyster Omelette */
+FONT.OysterOmelette{
+	font-size: 30px;
+	font-family: Bell MT;
+}
+P.Omelette{
+	font-size: 20px;
+}
+FONT.OOAD{
+	font-size: 18px;
+	font-family: Avenir Next;
+}
+IMG.Anping2{
+	position: relative;
+	top: 15px;
+}
+IMG.Bean1{
+	position: relative;
+	top: 20px;
+}
+IMG.Bean2{
+	position: relative;
+	top: 20px;
+}
+IMG.Bean3{
+	position: relative;
+	top: 20px;
+}
+IMG.Bean4{
+	position: relative;
+	top: 20px;
+}
+IMG.Bean5{
+	position: relative;
+	top: 20px;
+}
+/* Salty Congee */
+FONT.SaltyCongee{
+	font-size: 30px;
+	font-family: Bell MT;
+}
+P.Congee{
+	font-size: 20px;
+}
+FONT.SCAD{
+	font-size: 18px;
+	font-family: Avenir Next;
+}
+IMG.RiceSoup{
+	position: relative;
+	top: 15px;
+}
+IMG.Soup1{
+	position: relative;
+	top: 20px;
+}
+IMG.Soup2{
+	position: relative;
+	top: 20px;
+}
+/* Shrimp Roll */
+FONT.ShrimpRoll{
+	font-size: 30px;
+	font-family: Bell MT;
+}
+P.Shrimp{
+	font-size: 20px;
+}
+FONT.SRAD{
+	font-size: 18px;
+	font-family: Avenir Next;
+}
+IMG.Roll{
+	position: relative;
+	top: 15px;
+}
+IMG.Roll1{
+	position: relative;
+	top: 20px;
+}
+IMG.Roll2{
+	position: relative;
+	top: 20px;
+}
+IMG.Roll3{
+	position: relative;
+	top: 20px;
+}
+/* Dosyue Noodles */
+FONT.DosyueNoodles{
+	font-size: 30px;
+	font-family: Bell MT;
+}
+P.Dosyue{
+	font-size: 20px;
+}
+FONT.DNAD{
+	font-size: 18px;
+	font-family: Avenir Next;
+}
+IMG.Noodles{
+	position: relative;
+	top: 15px;
+}
+IMG.Noodles1{
+	position: relative;
+	top: 20px;
+}
+IMG.Noodles2{
+	position: relative;
+	top: 20px;
+}
+IMG.Noodles3{
+	position: relative;
+	top: 20px;
+}

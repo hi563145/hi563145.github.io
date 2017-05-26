@@ -1,0 +1,167 @@
+/* Logo */
+A.iTainanTourlink{
+	text-decoration: none;
+}
+Font.iTainantour{
+	font-size:500%;
+	font-family:Comic Sans MS;
+	color: #61210B;
+}
+IMG.logo1{
+	position: relative;
+	right: 50px;
+}
+IMG.logo2{
+	position: relative;
+	left: 50px;
+}
+/* Links */
+table.table{
+	width: 100%;
+}
+A.Food2{
+	font-size: 200%;
+	color: #013ADF;
+	position: relative;
+	background: black;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Food1{
+	width: 25%;
+}
+TD.Food1:hover{
+	background: #64FAB9;
+}
+A.Attractions2{
+	font-size: 200%;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Attractions1{
+	width: 25%;
+}
+TD.Attractions1:hover{
+	background: #64FAB9;
+}
+A.Transportation2{
+	font-size: 200%;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Transportation1{
+	width: 25%;
+}
+TD.Transportation1:hover{
+	background: #64FAB9;
+}
+A.Accomodation2{
+	font-size: 200%;
+	color: #013ADF;
+	position: relative;
+	font-family: Avenir;
+	text-decoration: none;
+}
+TD.Accomodation1{
+	width: 25%;
+}
+TD.Accomodation1:hover{
+	background: #64FAB9;
+}
+/* Welcome */
+.Welcome{
+	font-size: 2em;
+	font-family: cursive;
+}
+/* Information */
+P.Info{
+	font-family: cursive;
+}
+Font.Headings{
+	font-family: arial;
+	font-size: 24px;
+	position: relative;
+	top: 10px;
+}
+Font.Headings1{
+	font-family: arail;
+	font-size: 22px;
+}
+/* History */
+#tainanhistory1{
+	position: relative;
+	opacity: 1;
+	transition: 2s;
+}
+#tainanhistory2{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	top: 67.4em;
+	left: 19.5em;
+}
+#tainanhistory3{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	top: 67.4em;
+	left: 19.5em;
+}
+#tainanhistory4{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	top: 67.4em;
+	left: 19.5em;
+}
+/* Characteristic */
+#image1{
+	position: relative;
+	opacity: 1;
+	transition: 2s;
+	border-style: solid;
+	top: -0.5em;
+}
+#image2{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	left: 16em;
+	top: 107.05em;
+	border-style: solid;
+}
+#image3{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	left: 30em;
+	top: 107.05em;
+	border-style: solid;
+}
+#image4{
+	position: absolute;
+	opacity: 0;
+	transition: 2s;
+	left: 30em;
+	top: 107.05em;
+	border-style: solid;
+}
+/* Search Bar */
+.searchbar{
+	width: 17%;
+	position: absolute;
+	left: 83%;
+}
+/* Clock */
+#datebox{
+	font-size: 2em;
+	position: absolute;
+	left: 20px;
+	width: 5.5em;
+	text-align: center;
+	top: 3%;
+}
