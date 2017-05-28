@@ -3,17 +3,19 @@ A.iTainanTourlink{
 	text-decoration: none;
 }
 Font.iTainantour{
-	font-size:100px;
+	font-size: 630%;
 	font-family:Cracked;
 	color: #61210B;
 }
 IMG.logo1{
 	position: relative;
-	right: 50px;
+	right: 50%;
+	height: 7.5%;
 }
 IMG.logo2{
 	position: relative;
-	left: 50px;
+	left: 50%;
+	height: 7.5%
 }
 /* Links */
 table.table{
@@ -101,21 +103,21 @@ Font.Headings1{
 	position: absolute;
 	opacity: 0;
 	transition: 2s;
-	top: 67.4em;
+	top: 66.4em;
 	left: 19.5em;
 }
 #tainanhistory3{
 	position: absolute;
 	opacity: 0;
 	transition: 2s;
-	top: 67.4em;
+	top: 66.4em;
 	left: 19.5em;
 }
 #tainanhistory4{
 	position: absolute;
 	opacity: 0;
 	transition: 2s;
-	top: 67.4em;
+	top: 66.4em;
 	left: 19.5em;
 }
 /* Characteristic */
@@ -131,7 +133,7 @@ Font.Headings1{
 	opacity: 0;
 	transition: 2s;
 	left: 16em;
-	top: 107.05em;
+	top: 106.05em;
 	border-style: solid;
 }
 #image3{
@@ -139,7 +141,7 @@ Font.Headings1{
 	opacity: 0;
 	transition: 2s;
 	left: 30em;
-	top: 107.05em;
+	top: 106.05em;
 	border-style: solid;
 }
 #image4{
@@ -147,7 +149,7 @@ Font.Headings1{
 	opacity: 0;
 	transition: 2s;
 	left: 30em;
-	top: 107.05em;
+	top: 106.05em;
 	border-style: solid;
 }
 /* Search Bar */
