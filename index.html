@@ -18,10 +18,14 @@
 		function TWdate() {
 			var date = new Date();
 			var UTCH = date.getUTCHours();
-			var TimeH = UTCH + 8;
+			var TimeHour = UTCH+8;
+			if (TimeHour > 24) {
+				document.getElementById("dateH").innerHTML = TimeH;
+			};
+			var TimeH = 24%TimeHour;
 			var TimeM = date.getUTCMinutes();
 			var TimeS = date.getUTCSeconds();
-			document.getElementById("dateH").innerHTML = TimeH;
+			document.getElementById("dateH").innerHTML = TimeHour;
 			document.getElementById("dateM").innerHTML = TimeM;
 			document.getElementById("dateS").innerHTML = TimeS;
 		}
