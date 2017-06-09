@@ -4,44 +4,28 @@
 		<link rel="stylesheet" type="text/css" href="iTainantourHome.css" media="screen">
 		<link rel="shortcut icon" href="FullSizeRender.jpg">
 	</HEAD>
-<body background="wbc.gif">
+<body>
 		<div id="datebox">
 			<font>Taiwan Current Time</font>
 			<br>
 			<span id="dateH"></span>
-			:
-			<span id="dateM"></span>
-			:
-			<span id="dateS"></span>
+			<span id="sep1">:</span>
+			<span id="01"></span><span id="dateM"></span>
+			<span id="sep2">:</span>
+			<span id="02"></span><span id="dateS"></span>
 		</div>
-		<script type="text/javascript">
-		function TWdate() {
-			var date = new Date();
-			var UTCH = date.getUTCHours();
-			var TimeHour = UTCH+8;
-			if (TimeHour > 24) {
-				document.getElementById("dateH").innerHTML = TimeH;
-			};
-			var TimeH = 24%TimeHour;
-			var TimeM = date.getUTCMinutes();
-			var TimeS = date.getUTCSeconds();
-			document.getElementById("dateH").innerHTML = TimeHour;
-			document.getElementById("dateM").innerHTML = TimeM;
-			document.getElementById("dateS").innerHTML = TimeS;
-		}
-		var myVar = setInterval(TWdate, 500);
-		</script>
 	<div class="searchbar">
-		<script>
-  			(function() {
-    		var cx = '012516211717909653604:3usxsowo1ho';
-    		var gcse = document.createElement('script');
-    		gcse.type = 'text/javascript';
-    		gcse.async = true;
-    		gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    		var s = document.getElementsByTagName('script')[0];
-    		s.parentNode.insertBefore(gcse, s);
-  			})();
+		<script type="text/javascript">
+			//Search Bar
+			  (function() {
+			    var cx = '012516211717909653604:smmzgbckihm';
+			    var gcse = document.createElement('script');
+			    gcse.type = 'text/javascript';
+			    gcse.async = true;
+			    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+			    var s = document.getElementsByTagName('script')[0];
+			    s.parentNode.insertBefore(gcse, s);
+			  })();
 		</script>
 		<gcse:search></gcse:search>
 	</div>
@@ -49,7 +33,7 @@
 		<TABLE class='logo'>
 			<TR>
 				<TD>
-					<IMG SRC="FullSizeRender.jpg" height='100' class='logo1'>
+					<IMG SRC="FullSizeRender.jpg" class='logo1'>
 				</TD>
 				<TD>
 					<A HREF="index.html" class='iTainanTourlink'>
@@ -57,7 +41,7 @@
 					</A>
 				</TD>
 				<TD>
-					<IMG SRC="FullSizeRender.jpg" height='100' class='logo2'>
+					<IMG SRC="FullSizeRender.jpg" class='logo2'>
 				</TD>
 			</TR>
 		</TABLE>
@@ -217,10 +201,6 @@
 										document.getElementById('image1').style.opacity='0';">
 					</CENTER>
 		</UL>
-		<script>
-			var namevar = window.prompt("What is your name?");
-			document.getElementById("name").innerHTML = namevar;
-			document.getElementById("hi").innerHTML = namevar;
-		</script>
+		<script type="text/javascript" src="iTainantourHome.js"></script>
 </body>
 </html>
