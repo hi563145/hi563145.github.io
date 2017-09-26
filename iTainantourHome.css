@@ -2,6 +2,9 @@ body{
 	background: repeating-linear-gradient(#ffffff, #edf8f8, #cdf0f8, #abe9f8);
 }
 /* Logo */
+#logotable{
+	max-width: auto;
+}
 A.iTainanTourlink{
 	text-decoration: none;
 }
@@ -12,17 +15,18 @@ Font.iTainantour{
 }
 IMG.logo1{
 	position: relative;
-	right: 50%;
-	height: 7.5%;
+	height: 8%;
 }
 IMG.logo2{
 	position: relative;
-	left: 50%;
 	height: 7.5%;
 }
 /* Links */
-table.table{
+table#table{
 	width: 100%;
+	position: relative;
+	z-index: 1;
+	background: white;
 }
 A.Food2{
 	font-size: 200%;
@@ -97,91 +101,109 @@ Font.Headings1{
 	font-size: 22px;
 }
 /* History */
+#picdiv1{
+	overflow: hidden;
+	left: 50%;
+}
 #tainanhistory1{
 	position: relative;
 	opacity: 1;
 	transition: 2s;
+	max-width: 100%
 }
 #tainanhistory2{
 	position: absolute;
 	opacity: 0;
 	transition: 2s;
-	top: 171%;
-	left: 19.5em;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 #tainanhistory3{
 	position: absolute;
 	opacity: 0;
 	transition: 2s;
-	top: 66.4em;
-	left: 19.5em;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 #tainanhistory4{
 	position: absolute;
 	opacity: 0;
 	transition: 2s;
-	top: 66.4em;
-	left: 19.5em;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 /* Characteristic */
-#image1{
+#picdiv2{
+	left: 50%;
+}
+#tainancharacteristic1{
 	position: relative;
 	opacity: 1;
 	transition: 2s;
 	border-style: solid;
-	top: -0.5em;
 }
-#image2{
+#tainancharacteristic2{
 	position: absolute;
 	opacity: 0;
 	transition: 2s;
-	left: 16em;
-	top: 106.05em;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+	margin: auto;
 	border-style: solid;
 }
-#image3{
+#tainancharacteristic3{
 	position: absolute;
 	opacity: 0;
 	transition: 2s;
-	left: 30em;
-	top: 106.05em;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+	margin: auto;
 	border-style: solid;
 }
-#image4{
+#tainancharacteristic4{
 	position: absolute;
 	opacity: 0;
 	transition: 2s;
-	left: 30em;
-	top: 106.05em;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+	margin: auto;
 	border-style: solid;
 }
 /* Search Bar */
 .searchbar{
-	width: 17%;
+	max-width: 17%;
 	position: absolute;
-	left: 83%;
+	right: 0;
 }
 /* Clock */
 #datebox{
 	font-size: 2em;
 	position: absolute;
 	left: 20px;
-	width: 5.5em;
+	max-width: 5.5em;
 	text-align: center;
 }
 #sep1{
-	animation-name: flash;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
 	position: relative;
 	top: -0.08em;
 }
 @keyframes flash{
+	0%{opacity: 1;}
 	50%{opacity: 0;}
 	100%{opacity: 1;}
 }
 #sep2{
-	animation-name: flash;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
 	position: relative;

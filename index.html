@@ -1,10 +1,12 @@
+<!DOCTYPE html>
 <HTML>
 	<HEAD>
 		<TITLE>iTainanTour</TITLE>
 		<link rel="stylesheet" type="text/css" href="iTainantourHome.css" media="screen">
 		<link rel="shortcut icon" href="FullSizeRender.jpg">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</HEAD>
-<body>
+<body id="body" onscroll="scrollpos()">
 		<div id="datebox">
 			<font>Taiwan Current Time</font>
 			<br>
@@ -29,24 +31,24 @@
 		</script>
 		<gcse:search></gcse:search>
 	</div>
-			<CENTER>
-		<TABLE class='logo'>
-			<TR>
-				<TD>
-					<IMG SRC="FullSizeRender.jpg" class='logo1'>
-				</TD>
-				<TD>
-					<A HREF="index.html" class='iTainanTourlink'>
-						<FONT class='iTainantour'>iTainanTour</FONT>
-					</A>
-				</TD>
-				<TD>
-					<IMG SRC="FullSizeRender.jpg" class='logo2'>
-				</TD>
-			</TR>
-		</TABLE>
-		</CENTER>
-		<TABLE border='1' class="table">
+	<center>
+		<div id="title">
+			<table id="logotable">
+				<TR>
+					<TD>
+						<IMG SRC="FullSizeRender.jpg" class='logo1'>
+					</TD>
+					<td>
+						<A HREF="index.html" class='iTainanTourlink'><FONT class='iTainantour'>iTainanTour</FONT></A>
+					</td>
+					<td>
+						<IMG SRC="FullSizeRender.jpg" class='logo2'>
+					</td>
+				</TR>
+			</table>
+		</div>
+	</center>
+		<TABLE border='1' id="table">
 			<TR>
 				<TD class='Food1'>
 					<A href="Food.html" class='Food2'>
@@ -98,13 +100,13 @@
 					<P class='Info'>
 						Dutch people established Dutch East India Company called Fort Zeelandia. It was a rule and a trading base for dutch people. In 1611, Koxinga, in Ming Dynasty, took over the city from Dutch and named it Tungning Kingdom. It was under Koxinga&#39;s rule till 1683. Then in Qin Dynasty, it was named Taiwan Prefecture until 1887. Later, the capital of Taiwan moved to Taipei. Tainan remained one of the cultural capitals in Taiwan. Now, it is still a city full of history and cultural. It is famous for its local snack food. It also houses the first Confucian school temple, which was built in 1665.
 					</P>
-					<CENTER>
+					<center>
+						<div id="picdiv1">
 						<IMG SRC="tainan history 1.jpg" height='450' id='tainanhistory1'>
 						<IMG SRC="tainan history 2.jpg" height='450' id='tainanhistory2'>
 						<IMG SRC="tainan history 3.jpg" height='450' id='tainanhistory3'>
 						<IMG SRC="tainan history 4.jpg" height='450' id='tainanhistory4'>
-					</CENTER>
-					<CENTER>
+						<center>
 						<IMG SRC="Button2.gif" height='25' name='History1' class='History1'
 							onclick="src='Button2.gif'
 										History1.src='Button2.gif'
@@ -145,61 +147,65 @@
 										document.getElementById('tainanhistory2').style.opacity='0';
 										document.getElementById('tainanhistory3').style.opacity='0';
 										document.getElementById('tainanhistory4').style.opacity='1';">
-					</CENTER>
+					</center>
+					</div>
+				<center>
 				</LI>
 			<LI>
 				<font class='Headings1'>Characteristics:</font>
 					<P class='Info'>
 						Transportation in Tainan is very convenient. People can get to Tainan by land, sea, and air. Among them, there are freeways, trains, buses, and high-speed rails to get to other cities from Tainan. There will also be MRT in Tainan in the future to get to Kaohsiung. The living pace in Tainan is relaxing. Life in Tainan is not so stressful as life in Taipei. People are very sincere. It combines the convenience of a city and friendliness of a country. Tainan is a city full of culture and history. There are many historic sites for tourists to visit and local delicious snack foods for visitors to taste. It is a great choice for sightseeing. Follow us to this amazing city!
 					</P>
-					<CENTER>
-						<IMG SRC="characteristic tainan 1.jpg" height='450' name='tainancharacteristic' id="image1">
-						<IMG SRC="characteristic tainan 2.jpg" height="450" id="image2">
-						<IMG SRC="characteristic tainan 3.jpg" height="450" id="image3">
-						<IMG SRC="characteristic tainan 4.jpg" height="450" id="image4">
-					</CENTER>
-					<CENTER>
-						<IMG SRC="Button2.gif" height='25' name='Characteristic1' class='Character1'
+						<div id="picdiv2">
+						<center>
+						<IMG SRC="characteristic tainan 1.jpg" height='450' id='tainancharacteristic1'>
+						<IMG SRC="characteristic tainan 2.jpg" height='450' id='tainancharacteristic2'>
+						<IMG SRC="characteristic tainan 3.jpg" height='450' id='tainancharacteristic3'>
+						<IMG SRC="characteristic tainan 4.jpg" height='450' id='tainancharacteristic4'>
+						</center>
+						<center>
+						<IMG SRC="Button2.gif" height='25' name='characteristic1' class='characteristic1'
 							onclick="src='Button2.gif'
-										Characteristic1.src='Button2.gif'
-										Characteristic2.src='Button1.gif'
-										Characteristic3.src='Button1.gif'
-										Characteristic4.src='Button1.gif'
-										document.getElementById('image1').style.opacity='1';
-										document.getElementById('image2').style.opacity='0';
-										document.getElementById('image3').style.opacity='0';
-										document.getElementById('image4').style.opacity='0';">
-						<IMG SRC="Button1.gif" height='25' name='Characteristic2' class='Character2'
+										characteristic1.src='Button2.gif'
+										characteristic2.src='Button1.gif'
+										characteristic3.src='Button1.gif'
+										characteristic4.src='Button1.gif'
+										document.getElementById('tainancharacteristic1').style.opacity='1';
+										document.getElementById('tainancharacteristic2').style.opacity='0';
+										document.getElementById('tainancharacteristic3').style.opacity='0';
+										document.getElementById('tainancharacteristic4').style.opacity='0';">
+						<IMG SRC="Button1.gif" height='25' name='characteristic2' class='characteristic2'
 							onclick="src='Button2.gif'
-										Characteristic1.src='Button1.gif'
-										Characteristic2.src='Button2.gif'
-										Characteristic3.src='Button1.gif'
-										Characteristic4.src='Button1.gif'
-										document.getElementById('image2').style.opacity='1';
-										document.getElementById('image1').style.opacity='0';
-										document.getElementById('image3').style.opacity='0';
-										document.getElementById('image4').style.opacity='0';">
-						<IMG SRC="Button1.gif" height='25' name='Characteristic3' class='Character3'
+										characteristic1.src='Button1.gif'
+										characteristic2.src='Button2.gif'
+										characteristic3.src='Button1.gif'
+										characteristic4.src='Button1.gif'
+										document.getElementById('tainancharacteristic1').style.opacity='0';
+										document.getElementById('tainancharacteristic2').style.opacity='1';
+										document.getElementById('tainancharacteristic3').style.opacity='0';
+										document.getElementById('tainancharacteristic4').style.opacity='0';">
+						<IMG SRC="Button1.gif" height='25' name='characteristic3' class='characteristic3'
 							onclick="src='Button2.gif'
-										Characteristic1.src='Button1.gif'
-										Characteristic2.src='Button1.gif'
-										Characteristic3.src='Button2.gif'
-										Characteristic4.src='Button1.gif'
-										document.getElementById('image3').style.opacity='1';
-										document.getElementById('image2').style.opacity='0';
-										document.getElementById('image1').style.opacity='0';
-										document.getElementById('image4').style.opacity='0';">
-						<IMG SRC="Button1.gif" height='25' name='Characteristic4' class='Character4'
+										characteristic1.src='Button1.gif'
+										characteristic2.src='Button1.gif'
+										characteristic3.src='Button2.gif'
+										characteristic4.src='Button1.gif'
+										document.getElementById('tainancharacteristic1').style.opacity='0';
+										document.getElementById('tainancharacteristic2').style.opacity='0';
+										document.getElementById('tainancharacteristic3').style.opacity='1';
+										document.getElementById('tainancharacteristic4').style.opacity='0';">
+						<IMG SRC="Button1.gif" height='25' name='characteristic4' class='characteristic4'
 							onclick="src='Button2.gif'
-										Characteristic1.src='Button1.gif'
-										Characteristic2.src='Button1.gif'
-										Characteristic3.src='Button1.gif'
-										Characteristic4.src='Button2.gif'
-										document.getElementById('image4').style.opacity='1';
-										document.getElementById('image2').style.opacity='0';
-										document.getElementById('image3').style.opacity='0';
-										document.getElementById('image1').style.opacity='0';">
-					</CENTER>
+										characteristic1.src='Button1.gif'
+										characteristic2.src='Button1.gif'
+										characteristic3.src='Button1.gif'
+										characteristic4.src='Button2.gif'
+										document.getElementById('tainancharacteristic1').style.opacity='0';
+										document.getElementById('tainancharacteristic2').style.opacity='0';
+										document.getElementById('tainancharacteristic3').style.opacity='0';
+										document.getElementById('tainancharacteristic4').style.opacity='1';">
+					</center>
+					</div>
 		</UL>
 		<script type="text/javascript" src="iTainantourHome.js"></script>
 </body>
